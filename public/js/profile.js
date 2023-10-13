@@ -4,7 +4,7 @@ const newFormHandler = async (event) => {
   const name = document.querySelector('#project-name').value.trim();
   const calories  = document.querySelector('#project-funding').value.trim();
   const ingredients = document.querySelector('#project-desc').value.trim();
-  const instructions = document.querySelector('#project-inst')
+  const instructions = document.querySelector('#project-inst').value.trim();
   if (name && calories && ingredients && instructions ) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',

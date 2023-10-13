@@ -20,7 +20,7 @@ Project.init(
     },
     instructions: {
       type: DataTypes.TEXT,
-      allowNull: true,
+      allowNull: false,
     },
   date_created: {
       type: DataTypes.DATE,
