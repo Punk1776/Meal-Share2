@@ -2,13 +2,16 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#project-name').value.trim();
-  const calories  = document.querySelector('#project-funding').value.trim();
+  const calories = document.querySelector('#project-funding').value.trim();
   const ingredients = document.querySelector('#project-desc').value.trim();
   const instructions = document.querySelector('#project-inst').value.trim();
-  if (name && calories && ingredients && instructions ) {
+  const protien_g = document.querySelector('#project-protien').value.trim();
+  const carbs_g = document.querySelector('#project-carbs').value.trim();
+  const fats_g = document.querySelector('#project-fats').value.trim();
+  if (name && calories && ingredients && instructions && protien_g && carbs_g && fats_g) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',
-      body: JSON.stringify({ name, calories, ingredients, instructions }),
+      body: JSON.stringify({ name, calories, ingredients, instructions, protien_g, carbs_g, fats_g }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -44,5 +47,5 @@ document
 
 document
   .querySelector('.project-list')
-  .addEventListener('click',delButtonHandler);
-  
+  .addEventListener('click', delButtonHandler);
+

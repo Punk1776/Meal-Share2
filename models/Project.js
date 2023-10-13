@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Project extends Model {}
+class Project extends Model { }
 
 Project.init(
   {
@@ -17,21 +17,34 @@ Project.init(
     },
     ingredients: {
       type: DataTypes.TEXT,
+
+    },
+    protien_g: {
+      type: DataTypes.FLOAT,
+      allowNull: false
+    },
+    carbs_g: {
+      type: DataTypes.FLOAT,
+      allowNull: false
+    },
+    fats_g: {
+      type: DataTypes.FLOAT,
+      allowNull: false
     },
     instructions: {
       type: DataTypes.TEXT,
       allowNull: false,
     },
-  date_created: {
+    date_created: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
-  },
-  calories: {
-    type: DataTypes.FLOAT,
+    },
+    calories: {
+      type: DataTypes.FLOAT,
       allowNull: false,
-  },
-  user_id: {
+    },
+    user_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
