@@ -1,17 +1,20 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "name": "BBQ chicken",
+    "ingredients": "BBQ Sauce and Chicken.",
+    "calories": 200,
+    "instructions": "place holder"
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "name": "Cinnamon Apple Yogurt Bowls",
+    "ingredients": "Apples",
+    "calories": 217,
+    "instructions": "place holder"
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "name": "chicken pasta",
+    "ingredients": "pasta and chicken",
+    "calories": 500,
+    "instructions": "Pasta: Boil a large part of salted water. Add pasta to boiling water and cook to al dente, according to the package instructions. Before draining the pasta after it is finished cooking, reserve 1 cup of the starchy cooking water. Chicken: In a medium bowl, combine the garlic powder, dried parsley, fine sea salt, black pepper and olive oil together. Carefully butterfly the chicken breasts all the way through so you have 4 even filets. Add the chicken to the oil and spice blend and coat evenly.  Heat a large nonstick skillet over medium-high heat and cook the chicken until golden brown, about 3 minutes per side, or until the internal temperature reads 165 F on an instant read meat thermometer. Remove the chicken from the pan and cover it with aluminum foil to keep it warm. Butter and Garlic Sauce: Melt the butter in the skillet over medium-low heat, add the minced garlic and cook for about 2 minutes, or until it’s aromatic.  Once the garlic butter is done, spoon out half of it from the pan into a small bowl. Put the spaghetti into the skillet and toss to coat in the garlic butter, mix in 1/4 cup parmesan cheese then mix in 1/3 cup of the starchy cooking water. If it still needs some thinning out, add more starchy water, a little at a time, until desired consistency is reached. Slice the chicken into thin strips and put on top of the spaghetti or beside it, spoon out the rest of the garlic butter on top of both the chicken and spaghetti. Then garnish with fresh parsley, the rest of the parmesan cheese, and some black pepper if desired."
   }
 ]
