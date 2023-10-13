@@ -1,0 +1,53 @@
+
+  body {
+    margin: 0;
+  }
+   main {
+    display: block;
+  }
+  h1 {
+    padding: 20px; /* Add padding inside each form section */
+    background-color: #fff; /* Background color for the form sections */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add some spacing between the form sections */
+    margin-top: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * Center and style the container */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure vertical centering */
+  background-color: #2735f8; /* Background color for the entire page */
+
+  /* Add padding to create a box around the content */
+  padding: 30px;
+  border: 20px solid #fcfafa;
+  border-radius: 10px;
+  box-shadow: 0 0 0px rgba(7, 0, 0, 0.2);
+}
+
+/* Style the individual form sections */
+.col-md-6 {
+  padding: 20px; /* Add padding inside each form section */
+  background-color: #c7c5c5; /* Background color for the form sections */
+  border: 100px solid #2d98f0;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 0px; /* Add some spacing between the form sections */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary {
+   font-size: 50px; /* Adjust font size as needed */
+  }
