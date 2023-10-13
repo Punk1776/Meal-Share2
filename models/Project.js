@@ -15,19 +15,23 @@ Project.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
-      type: DataTypes.STRING,
+    ingredients: {
+      type: DataTypes.TEXT,
     },
-    date_created: {
+    instructions: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
+  date_created: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
-    },
-    needed_funding: {
-      type: DataTypes.FLOAT,
+  },
+  calories: {
+    type: DataTypes.FLOAT,
       allowNull: false,
-    },
-    user_id: {
+  },
+  user_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'user',
@@ -35,6 +39,7 @@ Project.init(
       },
     },
   },
+
   {
     sequelize,
     timestamps: false,
