@@ -19,7 +19,7 @@ Project.init(
       type: DataTypes.TEXT,
 
     },
-    protien_g: {
+    protein_g: {
       type: DataTypes.FLOAT,
       allowNull: false
     },

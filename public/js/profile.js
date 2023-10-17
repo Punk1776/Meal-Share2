@@ -5,13 +5,13 @@ const newFormHandler = async (event) => {
   const calories = document.querySelector('#project-funding').value.trim();
   const ingredients = document.querySelector('#project-desc').value.trim();
   const instructions = document.querySelector('#project-inst').value.trim();
-  const protien_g = document.querySelector('#project-protien').value.trim();
+  const protein_g = document.querySelector('#project-protien').value.trim();
   const carbs_g = document.querySelector('#project-carbs').value.trim();
   const fats_g = document.querySelector('#project-fats').value.trim();
-  if (name && calories && ingredients && instructions && protien_g && carbs_g && fats_g) {
+  if (name && calories && ingredients && instructions && protein_g && carbs_g && fats_g) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',
-      body: JSON.stringify({ name, calories, ingredients, instructions, protien_g, carbs_g, fats_g }),
+      body: JSON.stringify({ name, calories, ingredients, instructions, protein_g, carbs_g, fats_g }),
       headers: {
         'Content-Type': 'application/json',
       },

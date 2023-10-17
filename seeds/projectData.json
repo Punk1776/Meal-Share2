@@ -1,28 +1,272 @@
 [
   {
-    "name": "BBQ chicken",
-    "ingredients": "BBQ Sauce and Chicken.",
-    "calories": 200,
-    "instructions": "place holder",
-    "protien_g": "30",
-    "carbs_g": "35",
-    "fats_g": "12"
+    "name": "Spinach and Feta Stuffed Chicken",
+    "ingredients": "4 boneless chicken breasts, 2 cups of fresh spinach, 1 cup feta cheese, 2 cloves garlic, 1 lemon, olive oil, salt, pepper",
+    "calories": 350,
+    "instructions": "Preheat your oven to 375°F (190°C). Butterfly the chicken breasts and season with salt and pepper. Sauté spinach and minced garlic in olive oil until wilted. Mix in feta cheese. Stuff each chicken breast with the spinach and feta mixture. Sear the chicken in a hot skillet until golden brown. Transfer to the oven and bake for 20-25 minutes or until chicken is cooked through. Squeeze lemon juice over the chicken before serving.",
+    "protein_g": 40,
+    "carbs_g": 5,
+    "fats_g": 15
   },
   {
-    "name": "Cinnamon Apple Yogurt Bowls",
-    "ingredients": "Apples",
-    "calories": 217,
-    "instructions": "place holder",
-    "protien_g": "30",
-    "carbs_g": "35",
-    "fats_g": "12"
+    "name": "Mango Salsa Shrimp Tacos",
+    "ingredients": "1 lb large shrimp, 2 ripe mangoes, red onion, jalapeño pepper, cilantro, lime juice, corn tortillas",
+    "calories": 320,
+    "instructions": "Peel and devein the shrimp. Season with salt and pepper. Grill or sauté until pink and slightly charred. Dice mangoes, red onion, and jalapeño. Chop cilantro. Combine all in a bowl and mix with lime juice. Warm corn tortillas. Fill tortillas with shrimp and mango salsa. Serve with lime wedges.",
+    "protein_g": 25,
+    "carbs_g": 40,
+    "fats_g": 10
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": "Assorted vegetables (e.g., bell peppers, broccoli, carrots, snap peas), tofu or chicken, soy sauce, garlic, ginger, sesame oil, rice or noodles",
+    "calories": 250,
+    "instructions": "Prepare your choice of protein (tofu or chicken) and cut into bite-sized pieces. Heat a wok or large skillet with sesame oil. Add minced garlic and ginger. Stir in chopped vegetables and cook until tender-crisp. Add your protein and cook until done. Season with soy sauce. Serve over cooked rice or noodles.",
+    "protein_g": 15,
+    "carbs_g": 30,
+    "fats_g": 8
+  },
+  {
+    "name": "Teriyaki Salmon",
+    "ingredients": "Salmon fillets, teriyaki sauce, brown sugar, garlic, ginger, sesame seeds, green onions, rice",
+    "calories": 350,
+    "protein_g": 30,
+    "carbs_g": 45,
+    "fats_g": 12,
+    "instructions": "In a bowl, combine teriyaki sauce, brown sugar, minced garlic, and grated ginger. Marinate salmon fillets in this mixture for 30 minutes. Preheat the grill. Grill the salmon for 4-5 minutes per side. Sprinkle with sesame seeds and chopped green onions. Serve over steamed rice."
+  },
+  {
+    "name": "Roasted Vegetable Medley",
+    "ingredients": "Assorted vegetables (e.g., bell peppers, zucchini, cherry tomatoes, red onion), olive oil, balsamic vinegar, garlic, thyme, salt, pepper",
+    "calories": 180,
+    "protein_g": 3,
+    "carbs_g": 20,
+    "fats_g": 8,
+    "instructions": "Preheat the oven to 425°F (220°C). Cut vegetables into chunks. Toss with olive oil, balsamic vinegar, minced garlic, thyme, salt, and pepper. Spread on a baking sheet and roast for 25-30 minutes or until tender and slightly caramelized."
+  },
+  {
+    "name": "Pineapple Chicken Stir-Fry",
+    "ingredients": "Chicken breast, pineapple chunks, bell peppers, onion, soy sauce, ginger, garlic, brown sugar, cornstarch, rice",
+    "calories": 320,
+    "protein_g": 25,
+    "carbs_g": 35,
+    "fats_g": 10,
+    "instructions": "Cut chicken into bite-sized pieces. Stir-fry in a pan until cooked through. Remove from the pan. In the same pan, sauté sliced bell peppers and onion. Combine soy sauce, minced ginger, minced garlic, brown sugar, and cornstarch in a bowl. Pour this sauce over the vegetables. Add pineapple chunks and the cooked chicken. Stir-fry until the sauce thickens. Serve over cooked rice."
+  },
+  {
+    "name": "Classic Beef Stew",
+    "ingredients": "Stewing beef, carrots, potatoes, onion, garlic, tomato paste, beef broth, red wine, thyme, bay leaves, salt, pepper",
+    "calories": 400,
+    "protein_g": 30,
+    "carbs_g": 15,
+    "fats_g": 18,
+    "instructions": "In a large pot, brown the stewing beef. Remove the beef and sauté chopped onions and garlic. Add tomato paste and cook briefly. Return the beef to the pot. Add beef broth and red wine. Season with thyme, bay leaves, salt, and pepper. Simmer for 2-3 hours until beef is tender. Add carrots and potatoes and simmer until vegetables are cooked through."
+  },
+  {
+    "name": "Vegetable Frittata",
+    "ingredients": "Eggs, bell peppers, zucchini, onion, cherry tomatoes, Parmesan cheese, milk, salt, pepper",
+    "calories": 250,
+    "protein_g": 15,
+    "carbs_g": 10,
+    "fats_g": 15,
+    "instructions": "Preheat the oven to 350°F (175°C). Sauté diced bell peppers, zucchini, and onion. Whisk together eggs, milk, grated Parmesan cheese, salt, and pepper. Stir in sautéed vegetables and halved cherry tomatoes. Pour the mixture into a greased ovenproof pan and bake for 25-30 minutes or until set."
+  },
+  {
+    "name": "Cauliflower Buffalo Bites",
+    "ingredients": "Cauliflower florets, flour, paprika, garlic powder, salt, pepper, buffalo sauce, butter",
+    "calories": 180,
+    "protein_g": 4,
+    "carbs_g": 15,
+    "fats_g": 12,
+    "instructions": "Preheat the oven to 450°F (230°C). Toss cauliflower florets in a mixture of flour, paprika, garlic powder, salt, and pepper. Arrange on a baking sheet and bake for 20 minutes. In a saucepan, melt butter and stir in buffalo sauce. Toss the baked cauliflower in the sauce and return to the oven for 10 more minutes."
+  },
+  {
+    "name": "Lemon Garlic Shrimp Scampi",
+    "ingredients": "Large shrimp, spaghetti, lemon, garlic, butter, white wine, parsley, salt, pepper",
+    "calories": 330,
+    "protein_g": 20,
+    "carbs_g": 30,
+    "fats_g": 15,
+    "instructions": "Cook spaghetti according to package instructions. In a pan, sauté minced garlic in melted butter. Add large shrimp and cook until pink. Pour in white wine and lemon juice. Simmer briefly. Toss the cooked spaghetti in the sauce. Garnish with chopped parsley. Season with salt and pepper."
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": "Sliced bread, ripe avocados, cherry tomatoes, red pepper flakes, salt, pepper, lime juice",
+    "calories": 220,
+    "protein_g": 5,
+    "carbs_g": 25,
+    "fats_g": 12,
+    "instructions": "Toast slices of bread. Mash ripe avocados and spread on the toast. Top with sliced cherry tomatoes. Sprinkle with red pepper flakes, salt, pepper, and a drizzle of lime juice."
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "ingredients": "Grilled chicken breast, Romaine lettuce, croutons, Parmesan cheese, Caesar dressing",
+    "calories": 280,
+    "protein_g": 25,
+    "carbs_g": 10,
+    "fats_g": 15,
+    "instructions": "Grill chicken breast until cooked through. Slice into strips. Toss Romaine lettuce with croutons, grated Parmesan cheese, and Caesar dressing. Top with grilled chicken."
+  },
+  {
+    "name": "Mediterranean Quinoa Salad",
+    "ingredients": "Quinoa, cherry tomatoes, cucumber, red onion, Kalamata olives, feta cheese, fresh parsley, lemon juice, olive oil, salt, pepper",
+    "calories": 290,
+    "protein_g": 8,
+    "carbs_g": 40,
+    "fats_g": 12,
+    "instructions": "Cook quinoa according to package instructions and let it cool. Dice cherry tomatoes, cucumber, red onion, and Kalamata olives. Combine with quinoa, crumbled feta cheese, and chopped fresh parsley. Drizzle with a mixture of lemon juice and olive oil. Season with salt and pepper."
+  },
+  {
+    "name": "Honey Mustard Grilled Chicken",
+    "ingredients": "Chicken breasts, honey, Dijon mustard, garlic, lemon juice, olive oil, salt, pepper",
+    "calories": 280,
+    "protein_g": 30,
+    "carbs_g": 15,
+    "fats_g": 10,
+    "instructions": "In a bowl, whisk together honey, Dijon mustard, minced garlic, lemon juice, olive oil, salt, and pepper. Marinate chicken breasts in this mixture for 30 minutes. Preheat the grill. Grill the chicken for 5-6 minutes per side or until cooked through."
+  },
+  {
+    "name": "Creamy Tomato Basil Soup",
+    "ingredients": "Tomatoes, onion, garlic, basil, heavy cream, chicken broth, butter, olive oil, salt, pepper",
+    "calories": 240,
+    "protein_g": 5,
+    "carbs_g": 15,
+    "fats_g": 18,
+    "instructions": "Sauté chopped onion and minced garlic in a mixture of butter and olive oil. Add diced tomatoes and fresh basil. Simmer for 10 minutes. Blend the mixture until smooth. Return to the pot and add heavy cream and chicken broth. Season with salt and pepper. Simmer for an additional 10 minutes."
+  },
+  {
+    "name": "Vegetarian Chili",
+    "ingredients": "Kidney beans, black beans, corn, bell peppers, onion, garlic, chili powder, cumin, diced tomatoes, vegetable broth, olive oil, salt, pepper",
+    "calories": 270,
+    "protein_g": 10,
+    "carbs_g": 40,
+    "fats_g": 5,
+    "instructions": "Sauté chopped onion, bell peppers, and minced garlic in olive oil. Add chili powder and cumin. Stir in kidney beans, black beans, corn, diced tomatoes, and vegetable broth. Season with salt and pepper. Simmer for 30 minutes."
+  },
+  {
+    "name": "Lemon Herb Grilled Shrimp",
+    "ingredients": "Large shrimp, lemon juice, fresh herbs (e.g., thyme, rosemary), garlic, olive oil, salt, pepper",
+    "calories": 220,
+    "protein_g": 25,
+    "carbs_g": 5,
+    "fats_g": 12,
+    "instructions": "In a bowl, combine lemon juice, minced fresh herbs, minced garlic, olive oil, salt, and pepper. Marinate large shrimp in this mixture for 15 minutes. Preheat the grill. Grill the shrimp for 2-3 minutes per side or until pink and slightly charred."
+  },
+  {
+    "name": "Pesto Pasta with Sun-Dried Tomatoes",
+    "ingredients": "Penne pasta, pesto sauce, sun-dried tomatoes, Parmesan cheese, pine nuts, olive oil, salt, pepper",
+    "calories": 350,
+    "protein_g": 8,
+    "carbs_g": 45,
+    "fats_g": 20,
+    "instructions": "Cook penne pasta according to package instructions. Toss with pesto sauce, chopped sun-dried tomatoes, grated Parmesan cheese, and toasted pine nuts. Drizzle with olive oil. Season with salt and pepper."
+  },
+  {
+    "name": "Mango Salsa Chicken",
+    "ingredients": "Chicken breasts, mango salsa, lime juice, cumin, paprika, salt, pepper",
+    "calories": 320,
+    "protein_g": 35,
+    "carbs_g": 15,
+    "fats_g": 10,
+    "instructions": "Season chicken breasts with cumin, paprika, salt, and pepper. Grill or pan-sear until cooked through. Top with mango salsa and a drizzle of lime juice."
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "ingredients": "Eggplant, marinara sauce, mozzarella cheese, Parmesan cheese, breadcrumbs, eggs, fresh basil, olive oil, salt, pepper",
+    "calories": 380,
+    "protein_g": 15,
+    "carbs_g": 35,
+    "fats_g": 20,
+    "instructions": "Slice eggplant and dip in beaten eggs, then coat with breadcrumbs. Sauté in olive oil until golden. Layer eggplant slices with marinara sauce, mozzarella cheese, Parmesan cheese, and fresh basil. Bake in the oven until cheese is bubbly and golden."
+  },
+  
+  {
+    "name": "Teriyaki Tofu Stir-Fry",
+    "ingredients": "Firm tofu, broccoli, bell peppers, carrots, teriyaki sauce, ginger, garlic, soy sauce, sesame oil, brown rice",
+    "calories": 290,
+    "protein_g": 15,
+    "carbs_g": 40,
+    "fats_g": 10,
+    "instructions": "Cut firm tofu into cubes and stir-fry until golden brown. Remove from the pan. In the same pan, stir-fry broccoli, bell peppers, and carrots. In a bowl, mix teriyaki sauce, minced ginger, minced garlic, soy sauce, and sesame oil. Add the cooked tofu and sauce to the stir-fried vegetables. Serve over brown rice."
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": "Cucumbers, tomatoes, red onion, Kalamata olives, feta cheese, fresh oregano, olive oil, red wine vinegar, salt, pepper",
+    "calories": 210,
+    "protein_g": 7,
+    "carbs_g": 10,
+    "fats_g": 15,
+    "instructions": "Dice cucumbers, tomatoes, and red onion. Combine with Kalamata olives, crumbled feta cheese, and fresh oregano. Drizzle with a mixture of olive oil and red wine vinegar. Season with salt and pepper."
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "ingredients": "Spaghetti, eggs, Parmesan cheese, pancetta or bacon, garlic, black pepper, salt",
+    "calories": 400,
+    "protein_g": 20,
+    "carbs_g": 30,
+    "fats_g": 18,
+    "instructions": "Cook spaghetti according to package instructions. In a separate pan, cook pancetta or bacon until crispy. Whisk eggs, grated Parmesan cheese, minced garlic, black pepper, and a pinch of salt in a bowl. Drain cooked spaghetti and immediately toss with the egg and cheese mixture. Add the cooked pancetta or bacon. Serve with extra grated Parmesan and black pepper."
+  },
+  {
+    "name": "Hawaiian Chicken Skewers",
+    "ingredients": "Chicken thighs, pineapple chunks, bell peppers, red onion, barbecue sauce, soy sauce, garlic, ginger, rice",
+    "calories": 320,
+    "protein_g": 25,
+    "carbs_g": 35,
+    "fats_g": 12,
+    "instructions": "Cut chicken thighs into chunks and thread onto skewers with pineapple chunks, bell peppers, and red onion. In a bowl, mix barbecue sauce, soy sauce, minced garlic, and grated ginger. Brush the sauce over the skewers. Grill for 8-10 minutes, turning occasionally. Serve over rice."
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": "Tomatoes, fresh mozzarella, fresh basil, balsamic vinegar, olive oil, salt, pepper",
+    "calories": 180,
+    "protein_g": 10,
+    "carbs_g": 5,
+    "fats_g": 15,
+    "instructions": "Slice tomatoes and fresh mozzarella. Arrange them with fresh basil leaves. Drizzle with balsamic vinegar and olive oil. Season with salt and pepper."
+  },
+  {
+    "name": "Lentil and Vegetable Soup",
+    "ingredients": "Lentils, carrots, celery, onion, garlic, vegetable broth, cumin, thyme, salt, pepper",
+    "calories": 220,
+    "protein_g": 12,
+    "carbs_g": 35,
+    "fats_g": 5,
+    "instructions": "Sauté chopped onion, carrots, celery, and minced garlic. Add lentils, vegetable broth, cumin, thyme, salt, and pepper. Simmer for 25-30 minutes or until lentils are tender."
+  },
+  {
+    "name": "Shrimp and Broccoli Stir-Fry",
+    "ingredients": "Large shrimp, broccoli, bell peppers, garlic, ginger, soy sauce, oyster sauce, sesame oil, rice",
+    "calories": 260,
+    "protein_g": 20,
+    "carbs_g": 25,
+    "fats_g": 8,
+    "instructions": "Stir-fry large shrimp until pink. Remove from the pan. In the same pan, stir-fry broccoli, bell peppers, minced garlic, and grated ginger. Combine soy sauce, oyster sauce, and sesame oil in a bowl. Add the cooked shrimp and sauce to the stir-fried vegetables. Serve over rice."
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": "Arborio rice, mushrooms, onion, garlic, white wine, vegetable broth, Parmesan cheese, butter, olive oil, thyme, salt, pepper",
+    "calories": 360,
+    "protein_g": 10,
+    "carbs_g": 45,
+    "fats_g": 15,
+    "instructions": "Sauté chopped onion, garlic, and mushrooms in a mixture of butter and olive oil. Add Arborio rice and cook briefly. Pour in white wine and stir until absorbed. Gradually add vegetable broth, stirring until the rice is creamy and cooked. Stir in grated Parmesan cheese and fresh thyme. Season with salt and pepper."
+  },
+  {
+    "name": "Quinoa and Black Bean Stuffed Peppers",
+    "ingredients": "Bell peppers, quinoa, black beans, corn, diced tomatoes, onion, chili powder, cumin, salsa, cheddar cheese, salt, pepper",
+    "calories": 300,
+    "protein_g": 15,
+    "carbs_g": 45,
+    "fats_g": 10,
+    "instructions": "Cut the tops off bell peppers and remove seeds. In a bowl, combine cooked quinoa, black beans, corn, diced tomatoes, chopped onion, chili powder, and cumin. Stuff the peppers with this mixture. Top with salsa and grated cheddar cheese. Bake until peppers are tender and cheese is melted."
   },
   {
     "name": "chicken pasta",
     "ingredients": "pasta and chicken",
     "calories": 500,
     "instructions": "Pasta: Boil a large part of salted water. Add pasta to boiling water and cook to al dente, according to the package instructions. Before draining the pasta after it is finished cooking, reserve 1 cup of the starchy cooking water. Chicken: In a medium bowl, combine the garlic powder, dried parsley, fine sea salt, black pepper and olive oil together. Carefully butterfly the chicken breasts all the way through so you have 4 even filets. Add the chicken to the oil and spice blend and coat evenly.  Heat a large nonstick skillet over medium-high heat and cook the chicken until golden brown, about 3 minutes per side, or until the internal temperature reads 165 F on an instant read meat thermometer. Remove the chicken from the pan and cover it with aluminum foil to keep it warm. Butter and Garlic Sauce: Melt the butter in the skillet over medium-low heat, add the minced garlic and cook for about 2 minutes, or until it’s aromatic.  Once the garlic butter is done, spoon out half of it from the pan into a small bowl. Put the spaghetti into the skillet and toss to coat in the garlic butter, mix in 1/4 cup parmesan cheese then mix in 1/3 cup of the starchy cooking water. If it still needs some thinning out, add more starchy water, a little at a time, until desired consistency is reached. Slice the chicken into thin strips and put on top of the spaghetti or beside it, spoon out the rest of the garlic butter on top of both the chicken and spaghetti. Then garnish with fresh parsley, the rest of the parmesan cheese, and some black pepper if desired.",
-    "protien_g": "30",
+    "protein_g": "30",
     "carbs_g": "35",
     "fats_g": "12"
   }
