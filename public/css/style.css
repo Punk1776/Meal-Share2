@@ -7,7 +7,7 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #10a5eb;
   text-decoration: none;
   font-size: 100%;
 }
@@ -18,7 +18,7 @@ header, .project:not(:last-child) {
 }
 
 .dollar-amount {
-  color: #056605;
+  color: #676867;
   font-weight: bold;
   margin-left: -5px;
 }

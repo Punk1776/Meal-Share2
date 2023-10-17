@@ -1,4 +1,6 @@
 <!-- Loop over each object in the projects array -->
+ <header>
+  
 {{#each projects as |project| }}
 <div class="row mb-4 project">
   <div class="col-md-5">
@@ -15,27 +17,29 @@
     </p>
     <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
   </div>
+
   <div class="col-md-7">
-    <p>
+     <article class="card">
+    <p class="card-color">
+
       <b>Ingredients: </b>
       {{project.ingredients}}
-    </p>
-    <p>
+      <br>
       <b>Instructions: </b>
       {{project.instructions}}
-    </p>
-    <p>
+      <br>
       <b>protien: </b>
       {{project.protien_g}}
-    </p>
-    <p>
+      <br>
       <b>fats: </b>
       {{project.fats_g}}
-    </p>
-    <p>
+      <br>
       <b>carbs: </b>
       {{project.carbs_g}}
     </p>
+    
   </div>
 </div>
+</article>
+</header>
 {{/each}}
