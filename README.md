@@ -60,7 +60,7 @@ We welcome contributions from the open-source community. If you have ideas for i
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgments
-We'd like to express our gratitude to the open-source community and the developers of the tools and libraries used in this project
-David cox UCLA TA
+We'd like to express our gratitude to the open-source community and the developers of the tools and libraries used in this project also help from
+David Cox UCi TA
 and https://picnicss.com/
 
